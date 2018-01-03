@@ -1,0 +1,121 @@
+{
+  "attributes": {
+    "headers": [
+      { "text": "Name", "align": "left", "sortable": false, "value": "name" },
+      { "text": "Value", "align": "left", "sortable": false, "value": "value" }
+    ],
+    "items": [
+      { "name": "Character Name", "value": "Kyreen Cromwell" },
+      { "name": "Home World", "value": "Hive" },
+      { "name": "Career Path", "value": "Tech Priest" },
+      { "name": "Divination", "value": "“Trust in your fear" },
+      { "name": "Quirk", "value": "Grimy Skin" },
+      { "name": "Build", "value": "Scrawny" },
+      { "name": "Height", "value": "5.5'" },
+      { "name": "Weight", "value": "120 lbs" },
+      { "name": "Skin Color", "value": "Ruddy" },
+      { "name": "Hair Color", "value": "Grey" },
+      { "name": "Eye Color", "value": "Blue" },
+      { "name": "Age", "value": "29" },
+      { "name": "XP Total", "value": "3600" },
+      { "name": "XP Spent", "value": "3600" }
+    ]
+  },
+  "characteristics": {
+    "headers": [
+      { "text": "Name", "align": "left", "sortable": false, "value": "name" },
+      { "text": "Value", "align": "left", "sortable": false, "value": "value" }
+    ],
+    "items": [
+      { "name": "Weapon Skill", "value": "31" },
+      { "name": "Ballistic Skill", "value": "38" },
+      { "name": "Strength", "value": "30" },
+      { "name": "Toughness", "value": "30" },
+      { "name": "Agility", "value": "36" },
+      { "name": "Intelligence", "value": "36" },
+      { "name": "Perception", "value": "32" },
+      { "name": "Willpower", "value": "34" },
+      { "name": "Fellowship", "value": "31" }
+    ]
+  },
+  "skills": {
+    "headers": [
+      { "text": "Name", "align": "left", "sortable": false, "value": "name" },
+      { "text": "Characteristic", "align": "left", "sortable": false, "value": "characteristic" },
+      { "text": "Trained", "align": "left", "sortable": false, "value": "trained" },
+      { "text": "Bonus", "align": "left", "sortable": false, "value": "bonus" }
+    ],
+    "items": [
+      {"name": "Awareness", "characteristic": "Perception", "trained": "Yes", "bonus": "" },
+      {"name": "Barter", "characteristic": "Fellowship", "trained": "", "bonus": "" },
+      {"name": "Carouse", "characteristic": "Toughness", "trained": "", "bonus": "" },
+      {"name": "Charm", "characteristic": "Fellowship", "trained": "", "bonus": "" },
+      {"name": "Climb", "characteristic": "Strength", "trained": "", "bonus": "" },
+      {"name": "Concealment", "characteristic": "Agility", "trained": "", "bonus": "" },
+      {"name": "Contortionist", "characteristic": "Agility", "trained": "", "bonus": "" },
+      {"name": "Deceive", "characteristic": "Fellowship", "trained": "", "bonus": "" },
+      {"name": "Disguise", "characteristic": "Fellowship", "trained": "", "bonus": "" },
+      {"name": "Dodge", "characteristic": "Agility", "trained": "", "bonus": "" },
+      {"name": "Evaluate", "characteristic": "Intelligence", "trained": "", "bonus": "" },
+      {"name": "Gamble", "characteristic": "Intelligence", "trained": "", "bonus": "" },
+      {"name": "Inquiry", "characteristic": "Intelligence", "trained": "Yes", "bonus": "+10" },
+      {"name": "Intimidate", "characteristic": "Strength", "trained": "", "bonus": "" },
+      {"name": "Logic", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Scrutiny", "characteristic": "Perception", "trained": "", "bonus": "" },
+      {"name": "Search", "characteristic": "Perception", "trained": "", "bonus": "" },
+      {"name": "Silent Move", "characteristic": "Agility", "trained": "", "bonus": "+30 (strummer)" },
+      {"name": "Swim", "characteristic": "Strength", "trained": "", "bonus": "" },
+      {"name": "Speak (Low Gothic)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Tech-Use", "characteristic": "Intelligence", "trained": "Yes", "bonus": "+20" },
+      {"name": "Literacy", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Secret Tongue (Tech)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Trade (Copyist)", "characteristic": "Agility", "trained": "Yes", "bonus": "" },
+      {"name": "Common Lore (Machine cult)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "+20" },
+      {"name": "Common Lore (Tech)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "+10" },
+      {"name": "Trade (Technomat)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Medicae", "characteristic": "Intelligence", "trained": "Yes", "bonus": "+10 (+20) (items)" },
+      {"name": "Common Lore (War)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Common Lore (Imperial Guard)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" },
+      {"name": "Forbidden Lore (Archeotech)", "characteristic": "Intelligence", "trained": "Yes", "bonus": "" }
+    ]
+  },
+  "talents": {
+    "headers": [
+      { "text": "Name", "align": "left", "sortable": false, "value": "name" },
+      { "text": "Value", "align": "left", "sortable": false, "value": "value" }
+    ],
+    "items": [
+      {"name": "Basic Weapon Training (Las)", "value": "" },
+      {"name": "Pistol Training (Las)", "value": "" },
+      {"name": "Electro Graft Use", "value": "+10 bonus to Inquiry, Tech Use, Common Lore" },
+      {"name": "Melee Weapon Training (Primitive)", "value": "" },
+      {"name": "Feedback Screech", "value": "30m radius, Test Willpower or lose Half Action" },
+      {"name": "Logic", "value": "" },
+      {"name": "Accustomed to Crowds", "value": "Crowds do not count as Difficult Terrain for hivers" },
+      {"name": "Caves of Steel", "value": "Tech-Use skill is a Basic Skill" },
+      {"name": "Hivebound", "value": "-10 to Survival; -5 to Intelligence when outside of civilization" },
+      {"name": "Wary", "value": "+1 to Initiative" },
+      {"name": "Luminen Charge", "value": "Power or recharge machinery after 1 min ritual" },
+      {"name": "Chem Geld", "value": "Immune to seduction; resistent to charm" },
+      {"name": "Mimic", "value": "Copy voices" },
+      {"name": "Tech Use +10", "value": "" },
+      {"name": "Intelligence +5", "value": "" },
+      {"name": "Mechadendrite Use (Utility)", "value": "Page 157" },
+      {"name": "Mechadendrite Use (Medicae)", "value": "Page 157" },
+      {"name": "Toughness +5", "value": "" },
+      {"name": "Sound Constitution V", "value": "" },
+      {"name": "Common Lore (Machine Cult) +10", "value": "" },
+      {"name": "Awareness", "value": "" },
+      {"name": "Total Recall", "value": "Remember anything" },
+      {"name": "Resistance Poisons", "value": "+10 to Toughness checks against Poisons" },
+      {"name": "Common Lore (War)", "value": "" },
+      {"name": "Ferric Lure", "value": "Simple metal telekenesis" },
+      {"name": "Common Lore (Imperial Guard)", "value": "" },
+      {"name": "Forbidden Lore (Archeotech)", "value": "" },
+      {"name": "Blademaster", "value": "Re-roll 1 attack with blade weapon when missed per round" },
+      {"name": "Disturbing Voice", "value": "+10 Intimidate & Interrogation, -10 Fellowship to people easily frightened" },
+      {"name": "Rite of Awe", "value": "Minor fear & -10 to next test in 50m radius, 2min long, can't talk during" },
+      {"name": "Maglev Grace", "value": "Can float" }
+    ]
+  }
+}
